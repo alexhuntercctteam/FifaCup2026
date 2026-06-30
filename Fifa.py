@@ -1,5 +1,5 @@
 
-import alex_enc.py)
+import alex_enc.py
 import inspect
 
 try:
@@ -8,4 +8,4 @@ except:
     print("Signature not found. Trying main...")
 
 # যদি main কাজ করে তবে এটিই ব্যবহার করুন
-alex_enc.py).main()
+alex_enc.py.main()
