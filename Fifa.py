@@ -1,5 +1,4 @@
-
-import alex_enc.py
+import Fifacup
 import inspect
 
 try:
@@ -8,4 +7,4 @@ except:
     print("Signature not found. Trying main...")
 
 # যদি main কাজ করে তবে এটিই ব্যবহার করুন
-alex_enc.py.main()
+Fifacup.main()
